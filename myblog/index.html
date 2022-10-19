@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="container">
+    <div>
+        <header>
+            <h1>Este Es Mi Blog Personal</h1>
+        </header>
+        
+    </div>
+        <nav id="nav">
+            
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>                
+            </ul>
+        </nav>
+    
+   
+    <div id="home">
+        <img src="./src/marcos.jpg" alt="owner of MyBlog Marcos Aravena">
+    </div>
+        
+        <div class="article" id="about">
+            <h2>Información sobre el autor</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque corrupti consectetur, eum minus error possimus harum maiores numquam, sunt quod quo sit adipisci optio voluptas necessitatibus reprehenderit facilis placeat nesciunt ratione dolorem dolores, iusto laboriosam voluptatum! Numquam sapiente tempore dignissimos facere cum iste iure odio rerum, laboriosam dolore vel esse nemo totam natus ducimus molestiae! Facilis, dignissimos quisquam ratione adipisci ullam in amet, repudiandae rem, optio consequatur maxime doloribus veritatis voluptas sint molestiae laudantium at vel perspiciatis aut a eveniet. Animi natus rem voluptatibus porro consequatur dolorem laboriosam quasi neque eum recusandae repellat officiis perferendis labore, asperiores libero aut. Aliquid!
+            </p>
+            <a class="goBack" href="#nav">Volver arriba</a>
+        </div>
+
+        
+        <div class="article" id="portfolio">
+            <h2>¿Por Qué La Programación?</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officia consequuntur rerum harum fuga. Autem maiores consectetur, reiciendis, ex eligendi ab similique tempore eaque tempora consequatur quis! Voluptates iste soluta sapiente fugiat a dolorem nam tempora delectus repellendus illo quo, dignissimos dicta veniam voluptate qui nesciunt, doloribus rerum labore facilis corporis praesentium ipsa ea? Distinctio mollitia sit, repellendus minus ab cupiditate rerum quaerat animi velit! Iusto doloribus dolore, repellendus atque enim non beatae sapiente harum numquam doloremque impedit a eaque architecto alias totam, quam nihil iste laudantium veniam odit suscipit itaque ipsa fugit? Labore, quos nesciunt id saepe autem aliquam.
+            </p>
+            <a class="goBack" href="#nav">Volver arriba</a>
+        </div>
+
+        <div class="externos">
+
+            <p>Sitios de interés</p>
+            <ul>
+                <li><a href="https://bbc.com/" target="_blank">Mi Sitio de Noticias Favorito</a></li>
+                <li><a href="https://www.rossoitaliano.cl/" target="_blank">Donde Me gusta Ir A Comer</a></li>
+                <li><a href="https://torresdelpaine.com/" target="_blank">Uno De Los Lugares Más Hermosos En El Sur de Chile</a></li>
+            </ul>         
+                        
+        </div>
+        
+        <br><br><br><br><br>
+        <form>
+            <div id="contact">
+                <label for="nameUser">nombre: </label>
+                <input type="text" placeholder="ingrese su nombre" id="nameUser" name="nameUser" required>
+            </div>
+    
+            <br>
+    
+            <div>
+                <label for="ageUser">edad: </label>
+                <input type="number" placeholder="ingrese su edad" id="ageUser" name="ageUser" required>
+            </div>
+    
+            <br>
+    
+            <div>
+                <label for="pass">contraña: </label>
+                <input type="password" placeholder="ingrese su contraseña" id="pass" name="pass" required>
+            </div>
+    
+            <br>
+    
+            <div>
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">Aceptas terminos y condiciones</label>
+            </div>
+    
+    
+            <br>
+    
+            <select name="country" id="country">
+                <option value="" selected disabled hidden>Escoge uno</option>
+                <option value="1">Colombia</option>
+                <option value="2">Mexico</option>
+                <option value="3">Peru</option>
+                <option value="4">Argentina</option>
+            </select>
+    
+            <br>
+    
+           
+    
+            <label class="comentario" for="comment">Comentarios</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Ingresa tus comentarios"></textarea>
+    
+            <br>
+    
+            <input id="enviar" type="submit" value="Enviar">
+            <input id="limpiar" type="reset" value="limpiar"> <br><br>
+            <a class="goBack" href="#nav">Volver arriba</a>
+        </form>
+
+        
+
+        <footer>
+            Marcos Aravena Peña &copy; 2022
+        </footer>
+    
+    </div>
+    
+</body>
+</html>

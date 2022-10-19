@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=M+PLUS+Rounded+1c:wght@300;500;700&family=Merriweather:ital@0;1&family=Nunito:wght@300;500;700&family=Poppins:wght@100;300;500;700&family=Work+Sans:wght@400;500;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+body {
+    background-color: white;
+    
+}
+
+#container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+header h1 {
+    background-color: #3d3ddcd3;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    border-bottom: 10px solid white;
+    font-size: 50px;
+    
+}
+
+nav {
+    background-color: #1686e8;
+    height: 50px;
+    border-bottom: white;
+    
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    
+    font-size: 20px;
+    line-height: 30px;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.goBack {
+    color: #16169e;
+    
+}
+
+img {
+    width: 350px;
+    height: 380px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 9%;
+    
+}
+
+.article {
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    padding: 15px;
+}
+
+.externos ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    background-color: #6ddeb6;
+    height: 50px;
+    border-bottom: 5px solid white;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+.externos a {
+    float: line;
+}
+
+form {
+    width: 300px;                       
+    background-color: white;                    
+    padding-bottom: 20px;                   
+    border-radius: 10px;
+
+}
+
+footer {
+    background-color: #1686e8;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.comentario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#enviar {
+    background-color: #6ddeb6;
+    margin: 5px;
+    
+}
+
+#limpiar {
+    background-color: #6ddeb6;
+}
